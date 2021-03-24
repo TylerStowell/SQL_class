@@ -1,0 +1,33 @@
+<fulfillmentToken fulfillmentType="buy" auth="user" xmlns="http://ns.adobe.com/adept">
+  <distributor>urn:uuid:14568887-bab6-4134-81ac-92ca5aa20981</distributor>
+  <operatorURL>http://acs4.editionguard.com/fulfillment</operatorURL>
+  <transaction>140577_58401_1</transaction>
+  <purchase>2020-02-04T02:36:26+00:00</purchase>
+  <expiration>2020-04-04T02:36:26+00:00</expiration>
+  <resourceItemInfo>
+    <resource>urn:uuid:43a256e2-ebb4-49d0-8104-2933e1e9f09c</resource>
+    <resourceItem>0</resourceItem>
+    <metadata>
+      <dc:title xmlns:dc="http://purl.org/dc/elements/1.1/">Case Studies for System Analysis &amp; Design Projects — 827031B</dc:title>
+      <dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Alan Paradise</dc:creator>
+      <dc:publisher xmlns:dc="http://purl.org/dc/elements/1.1/">Cognella</dc:publisher>
+      <dc:format xmlns:dc="http://purl.org/dc/elements/1.1/">application/pdf</dc:format>
+    </metadata>
+    <licenseToken>
+      <resource>urn:uuid:43a256e2-ebb4-49d0-8104-2933e1e9f09c</resource>
+      <permissions>
+        <display>
+          <until>2020-08-02T02:36:26+00:00</until>
+        </display>
+        <excerpt>
+          <until>2020-08-02T02:36:26+00:00</until>
+          <count initial="20" max="20" incrementInterval="129600"/>
+        </excerpt>
+        <play>
+          <until>2020-08-02T02:36:26+00:00</until>
+        </play>
+      </permissions>
+    </licenseToken>
+  </resourceItemInfo>
+  <hmac>gZHSqbHAbQDZOH4Ifg+wOOLZfvA=</hmac>
+</fulfillmentToken>

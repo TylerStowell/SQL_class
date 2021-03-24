@@ -1,0 +1,65 @@
+Owner:
+
+INSERT INTO owner (owner_id, first_name, last_name, middle_initial, contact_number, pet_id)
+	VALUES (1, "Michael", "Stowell", "D", "720-838-0249", 1);
+    
+INSERT INTO owner (owner_id, first_name, last_name, middle_initial, contact_number, pet_id)
+	VALUES (2, "Dannie", "Pothier", "P", "720-112-1242", 2);
+    
+INSERT INTO owner (owner_id, first_name, last_name, middle_initial, contact_number, pet_id)
+	VALUES (3, "Susan", "Anthony", "B", "720-345-6830", 3);
+
+INSERT INTO owner (owner_id, first_name, last_name, middle_initial, contact_number, pet_id)
+	VALUES (4, "Tyler", "Stowell", "M", "720-476-6924", 4);
+
+
+Pet:
+
+INSERT INTO pet (pet_id, owner_id, pet_name, birthday, breed_description, gender, color_markings, neutered_spayed)
+	VALUES (1, 1, "Buster", 20180306, "Rotwiler", "Male", "Brown/Black", "yes");
+    
+INSERT INTO pet (pet_id, owner_id, pet_name, birthday, breed_description, gender, color_markings, neutered_spayed)
+	VALUES (2, 2, "Lola", 20191220, "German short hair", "Female", "Brown", "yes");    
+
+INSERT INTO pet (pet_id, owner_id, pet_name, birthday, breed_description, gender, color_markings, neutered_spayed)
+	VALUES (3, 3, "Buster", 20200104, "Lab", "Female", "White", "No");
+    
+INSERT INTO pet (pet_id, owner_id, pet_name, birthday, breed_description, gender, color_markings, neutered_spayed)
+	VALUES (4, 4, "Boston", 20180804, "Pitbull", "Male", "Grey/White", "yes");
+
+
+Classes:
+
+INSERT INTO classes (class_code, Class_name, trainer, date, time)
+	VALUES (1, "Basic Skills", "Shey", 20200306, "2 pm");
+    
+INSERT INTO classes (class_code, Class_name, trainer, date, time)
+	VALUES (1, "Basic Skills", "Marie", 20200308, "4 pm");
+    
+INSERT INTO classes (class_code, Class_name, trainer, date, time)
+	VALUES (2, "Walk-Train-Play", "Marie", 20200313, "11 am");
+    
+INSERT INTO classes (class_code, Class_name, trainer, date, time)
+	VALUES (2, "Walk-Train-Play", "Trevor", 20200316, "10 am");
+    
+INSERT INTO classes (class_code, Class_name, trainer, date, time)
+	VALUES (3, "Off-Leash Opperation", "Rose", 20200324, "10 am");
+    
+INSERT INTO classes (class_code, Class_name, trainer, date, time)
+	VALUES (3, "Off-Leash Opperation", "Shey", 20200328, "3 pm");
+
+Trainers
+
+INSERT INTO trainers (trainer_id, trainer_name)
+	VALUES (20, "Shey");
+    
+INSERT INTO trainers (trainer_id, trainer_name)
+	VALUES (21, "Marie");
+    
+INSERT INTO trainers (trainer_id, trainer_name)
+	VALUES (22, "Trevor");
+    
+INSERT INTO trainers (trainer_id, trainer_name)
+	VALUES (23, "Rose");
+
+
